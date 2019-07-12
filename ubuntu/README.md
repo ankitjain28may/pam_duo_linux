@@ -2,7 +2,7 @@
 
 Integrate pam_duo in Ubuntu Machine using Docker in a few minutes.
 
-## Installating
+## Installing
 
 I recommend using something like Vagrant for testing. If Duo Unix is configured incorrectly it has the potential to lock you out of a system. It's better to have that happen on a virtual machine instead of your computer.
 
@@ -14,7 +14,7 @@ I recommend using something like Vagrant for testing. If Duo Unix is configured 
         mv duo.env.example duo.env
     ```
 
-3. SSH into the ubuntu machine, make sure to create a right user and comfigure the keys so you can SSH.
+3. SSH into the ubuntu machine, make sure to create a right user and configure the keys so you can SSH.
 
 4. Install Docker in ubuntu if not installed.
 
