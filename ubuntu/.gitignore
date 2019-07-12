@@ -1,0 +1,4 @@
+.vagrant
+duo.env
+.env
+*-console.log

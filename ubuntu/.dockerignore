@@ -1,0 +1,6 @@
+Vagrantfile
+.git
+.vagrant
+.env
+install.sh
+*-console.log

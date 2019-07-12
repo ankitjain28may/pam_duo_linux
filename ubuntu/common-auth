@@ -1,0 +1,4 @@
+auth  requisite pam_unix.so nullok_secure
+auth  [success=1 default=ignore] /lib64/security/pam_duo.so
+auth  requisite pam_deny.so
+auth  required pam_permit.so
