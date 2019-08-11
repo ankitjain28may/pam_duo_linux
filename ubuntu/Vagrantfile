@@ -68,7 +68,7 @@ Vagrant.configure("2") do |config|
   #   apt-get install -y apache2
   # SHELL
 
-  config.ssh.username = 'ankit'
+  # config.ssh.username = 'ankit'
   config.ssh.forward_agent    = true
   config.ssh.insert_key       = false
   # config.ssh.private_key_path =  ["~/.vagrant.d/insecure_private_key","~/.ssh/id_rsa"]
