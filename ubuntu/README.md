@@ -95,6 +95,15 @@ I have set up a Demo using Vagrant (ubuntu box) to implement the pam_duo.
         # To craete a ubuntu VM
         $ vagrant up
 
+        # First time
+        $ vagrant ssh
+
+        # create keys and try local ssh so as you can enroll your device
+        $ sudo su - username
+        $ ssh-keygen -t rsa
+        $ cat ~/.ssh/id_rsa.pub >> authorized_keys
+        $ ssh localhost
+
         # SSH in VM
         $ ssh username@localhost -p 2222
     ```
