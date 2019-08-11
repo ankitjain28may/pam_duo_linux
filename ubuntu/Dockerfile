@@ -13,7 +13,7 @@ WORKDIR /pam_duo
 
 RUN curl https://dl.duosecurity.com/duo_unix-latest.tar.gz -O
 RUN tar zxf duo_unix-latest.tar.gz 
-RUN cd duo_unix-1.11.2 && ./configure --with-pam --prefix=/usr && make && make install
+RUN cd duo_unix-1.11.2 && ./configure --with-pam --prefix=/tmp && make DESTDIR=/tmp install
 
 COPY . .
 
